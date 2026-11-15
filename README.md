@@ -15,8 +15,11 @@ dann noch, wenn Ed25519 eines Tages von Quantencomputern gebrochen wird.
 - Die einzelnen Einträge im Ledger sind weiterhin mit Ed25519 signiert. Post-quantum signiert ist
   der **Stand** (der Root), nicht jeder Eintrag einzeln.
 - Geschützt ist nur, was bereits als Checkpoint veröffentlicht ist. Der erste Checkpoint ist vom 15.11.2026.
-- Kundendaten sind nicht enthalten, nur die IDs des öffentlichen Rechtskorpus. Die IDs sind
-  SHA-256-Inhaltshashes und verraten keinen Inhalt.
+- Kundendaten sind nicht enthalten, nur die IDs des öffentlichen Rechtskorpus. Einträge (`c:`),
+  Prüfereignisse (`e:`) und Vokabular (`v:`) sind SHA-256-Hashes. Quellen (`s:`) sind
+  dagegen lesbar: Adressen der amtlichen Fundstellen (gesetze-im-internet.de, rechtsprechung-im-internet.de,
+  eur-lex.europa.eu, gesetze-bayern.de, verwaltungsvorschriften-im-internet.de, physics.nist.gov) und
+  Literaturkürzel.
 
 ## Inhalt
 
