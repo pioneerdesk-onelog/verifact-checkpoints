@@ -1,0 +1,8 @@
+verifact-checkpoint-v1
+root=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+mandant=pioneerdesk.pro
+claims=859434
+events=12
+vocab=3
+sources=7
+zeit=2026-11-15T20:00:00Z
