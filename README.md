@@ -73,7 +73,13 @@ Python (dilithium-py) beim Prüfen. Mit dem Testvektor sind Public Key und Signa
 
 ## Schlüssel
 
-Wird nach dem ersten Checkpoint ergänzt.
+| Schlüssel | Wert |
+|---|---|
+| ML-DSA-65, SHA-256 der rohen Bytes von `keys/mldsa65.pk` | `8b9498635b865df32db385d2882d6dc3aefae70553777bca2a2765981f3e1aba` |
+| Ed25519 (`keys/ed25519.pk`, hex) | `db08a28694e306e71e9909883de124401511715c9b0142d33a69e46796c1d964` |
+
+Erster Checkpoint: 15.11.2026 18:59:14 UTC, Root `29f2bb48c59f9b0aa5e566837ebd3dcae39b46c6409d571661648fad40b8cc3f`,
+859.434 Einträge, 2.062.895 IDs insgesamt. Danach läuft täglich um 05:30 UTC ein neuer Checkpoint.
 
 ---
 
